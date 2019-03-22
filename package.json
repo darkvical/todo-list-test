@@ -20,6 +20,30 @@
     "eject": "react-scripts eject",
     "release": "release-it"
   },
+  "release-it": {
+    "github": {
+      "release": true,
+      "releaseName": "Release ${version}"
+    },
+    "git": {
+      "requireCleanWorkingDir": true,
+      "requireUpstream": true,
+      "addUntrackedFiles": false,
+      "commit": true,
+      "commitMessage": "Release ${version}",
+      "commitArgs": "",
+      "tag": true,
+      "tagName": "${version}",
+      "tagAnnotation": "Release ${version}",
+      "tagArgs": "",
+      "push": true,
+      "pushArgs": "",
+      "pushRepo": "origin"
+    },
+    "npm": {
+      "publish": false
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
