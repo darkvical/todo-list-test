@@ -37,15 +37,7 @@
       "pushRepo": "origin"
     },
     "github": {
-      "release": false,
-      "releaseName": "Release ${version}",
-      "releaseNotes": null,
-      "preRelease": false,
-      "draft": false,
-      "assets": null,
-      "host": null,
-      "timeout": 0,
-      "proxy": null
+      "release": false
     },
     "npm": {
       "publish": false
