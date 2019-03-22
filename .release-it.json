@@ -29,7 +29,6 @@
       "publish": false
     },
     "github": {
-      "release": false,
-      "releaseName": "Release ${version}"
+      "release": false
     }
   }
