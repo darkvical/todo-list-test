@@ -2,7 +2,6 @@
     "preReleaseId": null,
     "pkgFiles": ["package.json"],
     "use": "git.tag",
-    "non-interactive": true,
     "scripts": {
       "beforeStart": null,
       "beforeBump": null,
